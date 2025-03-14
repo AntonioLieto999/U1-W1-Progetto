@@ -68,6 +68,10 @@ nav .nav-h2 {
   color: #3394c9;
   margin-bottom: 0.5rem;
   font-weight: bold;
+  margin-top: 1rem;
+}
+.nav-p {
+  margin-bottom: 1rem;
 }
 nav img {
   border-radius: 50%;
