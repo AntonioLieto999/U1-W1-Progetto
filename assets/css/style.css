@@ -35,7 +35,7 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 3rem;
+  padding: 4rem;
 }
 main div h1 {
   font-family: "Montserrat", sans-serif;
@@ -49,16 +49,11 @@ main div h1 {
 main div p {
   margin-bottom: 2rem;
 }
-main div,
-p,
-button {
-}
 button {
   color: white;
-  border-radius: 10%;
+  border-radius: 10px;
   background-color: #f04c2f;
-  font-size: large;
-  padding: 0.5rem;
+  padding: 12px 30px;
   border-color: #f04c2f;
   margin-bottom: -10px;
 }
@@ -81,7 +76,8 @@ nav img {
   color: white;
   max-width: 100%;
   background-color: #f04c2f;
-  padding: 2rem;
+  padding: 1rem;
+  padding-top: 4rem;
 }
 .rosso h2 {
   font-family: "Montserrat", sans-serif;
