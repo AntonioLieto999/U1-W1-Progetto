@@ -24,8 +24,9 @@ header {
   max-width: 100%;
   margin: 1rem;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   margin: 0;
+  padding-top: 1.5rem;
 }
 main {
   text-align: center;
@@ -60,6 +61,7 @@ button {
 nav {
   margin-top: 2rem;
   padding: 2rem;
+  margin-bottom: 2rem;
 }
 nav .nav-h2 {
   font-family: "Montserrat", sans-serif;
