@@ -5,8 +5,11 @@
   box-sizing: border-box;
 }
 body {
+  line-height: 1.65;
+  font-family: "Poppins", sans-serif;
   inline-size: 1.65;
 }
+
 header {
   background-color: black;
   max-width: 100%;
@@ -17,28 +20,31 @@ header {
 }
 main {
   text-align: center;
-  padding: 2rem;
 }
 .first-div {
   background-image: url(../images/banner.jpg);
   background-position: center center;
   padding: 3rem;
+  max-width: 100%;
 }
 main div h1 {
   color: #3394c9;
   font-size: 30px;
   margin-bottom: 1rem;
 }
+main div p {
+  margin-bottom: 2rem;
+}
 main div,
 p,
 button {
-  margin-bottom: 1rem;
 }
 button {
   color: white;
-  border-radius: 10%;
+  border-radius: 15%;
   background-color: #f04c2f;
   font-size: large;
+  padding: 0.5rem;
 }
 nav .nav-h2 {
   color: #3394c9;
@@ -46,13 +52,14 @@ nav .nav-h2 {
 }
 nav img {
   border-radius: 50%;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 .rosso {
   color: white;
   max-width: 100%;
   background-color: #ee2200;
-  padding: 3rem;
+  padding: 1rem;
 }
 .rosso h2 {
   font-size: x-large;
@@ -67,11 +74,12 @@ nav img {
 .rosso :last-child {
   font-size: small;
 }
-article img {
-  width: 100%;
-}
+
 article div {
+  display: inline-block;
+  text-align: center;
   box-shadow: 0 0px 3px #444;
+  max-width: 85%;
 }
 article,
 img,
@@ -86,4 +94,10 @@ footer {
   background-color: #3394c9;
   padding: 3rem;
   color: white;
+}
+footer h2 {
+  margin-bottom: 1rem;
+}
+footer span {
+  text-decoration: underline;
 }
