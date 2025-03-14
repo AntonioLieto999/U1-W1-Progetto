@@ -4,6 +4,9 @@
   text-align: center;
   box-sizing: border-box;
 }
+a {
+  color: white;
+}
 body {
   line-height: 1.65;
   font-family: "Poppins", sans-serif;
@@ -32,6 +35,7 @@ main div h1 {
   color: #3394c9;
   font-size: 30px;
   margin-bottom: 1rem;
+  padding: 1rem;
 }
 main div p {
   margin-bottom: 2rem;
@@ -42,10 +46,11 @@ button {
 }
 button {
   color: white;
-  border-radius: 15%;
+  border-radius: 10%;
   background-color: #f04c2f;
   font-size: large;
   padding: 0.5rem;
+  border-color: #f04c2f;
 }
 nav {
   margin-top: 2rem;
