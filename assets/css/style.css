@@ -9,9 +9,40 @@ header {
   margin: 1rem;
   text-align: center;
   padding: 2rem;
+  margin: 0;
 }
 main {
   text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+.first-div {
+  background-image: url(../images/banner.jpg);
+  background-position: center center;
 }
 main div h1 {
+  color: #3394c9;
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+main div,
+p,
+button {
+  margin-bottom: 1rem;
+}
+button {
+  background-color: #f04c2f;
+  font-size: large;
+}
+nav .nav-h2 {
+  color: #3394c9;
+  margin-bottom: 0.5rem;
+}
+nav img {
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+.rosso {
+  background-color: #ee2200;
+  padding: 1rem;
 }
