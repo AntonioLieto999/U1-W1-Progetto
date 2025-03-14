@@ -23,9 +23,10 @@ main {
 }
 .first-div {
   background-image: url(../images/banner.jpg);
-  background-position: center center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 3rem;
-  max-width: 100%;
 }
 main div h1 {
   color: #3394c9;
@@ -46,6 +47,10 @@ button {
   font-size: large;
   padding: 0.5rem;
 }
+nav {
+  margin-top: 2rem;
+  padding: 2rem;
+}
 nav .nav-h2 {
   color: #3394c9;
   margin-bottom: 0.5rem;
@@ -59,7 +64,7 @@ nav img {
   color: white;
   max-width: 100%;
   background-color: #ee2200;
-  padding: 1rem;
+  padding: 2rem;
 }
 .rosso h2 {
   font-size: x-large;
@@ -74,12 +79,16 @@ nav img {
 .rosso :last-child {
   font-size: small;
 }
+article {
+  margin-top: 2rem;
+}
 
 article div {
   display: inline-block;
   text-align: center;
   box-shadow: 0 0px 3px #444;
   max-width: 85%;
+  margin-bottom: 1rem;
 }
 article,
 img,
@@ -88,6 +97,7 @@ p {
   margin-bottom: 0.5rem;
 }
 article h3 {
+  font-weight: bold;
   color: #3394c9;
 }
 footer {
@@ -96,8 +106,13 @@ footer {
   color: white;
 }
 footer h2 {
+  font-weight: bold;
+  font-size: x-large;
   margin-bottom: 1rem;
 }
 footer span {
   text-decoration: underline;
+}
+.last {
+  margin-top: 2rem;
 }
